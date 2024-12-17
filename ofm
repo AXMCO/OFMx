@@ -49,6 +49,11 @@
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             padding: 20px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px 10px 0 0;
         }
         footer {
             background-color: #0096FF;
@@ -91,18 +96,22 @@
         <h2>Palvelut</h2>
         <div class="services">
             <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Profiilin optimointi">
                 <h3>Profiilin optimointi</h3>
                 <p>Autamme sinua rakentamaan houkuttelevan ja ammattimaisen profiilin.</p>
             </div>
             <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Sisällöntuotannon suunnittelu">
                 <h3>Sisällöntuotannon suunnittelu</h3>
                 <p>Suunnittelemme sisällön, joka houkuttelee tilaajia ja pitää heidät sitoutuneina.</p>
             </div>
             <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Tilaajamäärän kasvattaminen">
                 <h3>Tilaajamäärän kasvattaminen</h3>
                 <p>Strategioita tilaajamäärän kasvattamiseksi tehokkaasti.</p>
             </div>
             <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Viestinnän hallinta">
                 <h3>Viestinnän hallinta</h3>
                 <p>Vastaamme viesteihin puolestasi ja ylläpidämme tilaajiesi tyytyväisyyttä.</p>
             </div>
@@ -112,10 +121,12 @@
         <h2>Asiakaspalautteet</h2>
         <div class="testimonials">
             <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Asiakaspalaute 1">
                 <p>"Huikea palvelu! Profiilini kasvoi huomattavasti jo ensimmäisen kuukauden aikana."</p>
                 <p>- Asiakas 1</p>
             </div>
             <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Asiakaspalaute 2">
                 <p>"Ammattitaitoista ja ystävällistä palvelua. Suosittelen lämpimästi!"</p>
                 <p>- Asiakas 2</p>
             </div>
@@ -146,3 +157,5 @@
     </footer>
 </body>
 </html>
+
+
